@@ -2,8 +2,6 @@ import logging
 import time
 import functools
 
-logging.basicConfig(format="'%(asctime)s - %(levelname)s - %(message)s'", level=logging.DEBUG)
-
 
 class PasswordFinder:
 

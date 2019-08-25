@@ -1,6 +1,8 @@
 import pwdfinder
 import logging
 
+logging.basicConfig(format="'%(asctime)s - %(levelname)s - %(message)s'", level=logging.INFO)
+
 
 def test_password_finder():
     finder = pwdfinder.PasswordFinder()
